@@ -22,7 +22,7 @@ set.seed(7)
 # -----------------------------
 
 # Load the data
-wine <- read.csv("/Users/royho/Desktop/wine.csv")
+wine <- read.csv("data/wine.csv")
 
 # Treat red and quality as categorical
 wine <- wine %>%

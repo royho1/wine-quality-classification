@@ -31,6 +31,44 @@ The goal was to:
 - Logistic regression achieved high AUC for red vs white classification
 - MANOVA indicated significant multivariate differences across quality groups
 
+## Screenshots
+
+### PCA separation
+
+![PCA separation](docs/screenshots/pca-separation.png)
+
+Red vs white wines separate clearly in PCA space.
+
+### LDA separation
+
+![LDA separation](docs/screenshots/lda-separation.png)
+
+Linear discriminant projection for red vs white classification.
+
+### ROC curve
+
+![ROC curve](docs/screenshots/roc-curve.png)
+
+Red vs white classification ROC with held-out AUC.
+
+### High-quality ROC
+
+![High-quality ROC](docs/screenshots/roc-high-quality.png)
+
+ROC for classifying highest-quality wines vs the rest (AUC 0.864).
+
+### Feature correlations
+
+![Feature correlations](docs/screenshots/correlation-matrix.png)
+
+Upper-triangle correlation matrix of wine chemical properties.
+
+### Quality vs alcohol
+
+![Quality vs alcohol](docs/screenshots/quality-boxplot.png)
+
+Alcohol level distributions across wine quality ratings.
+
 ## Author
 Roy Ho  
 UC Davis — Statistical Data Science
